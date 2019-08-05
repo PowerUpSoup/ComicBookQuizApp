@@ -6,13 +6,10 @@ body {
     height: 100vh;
     font-family: 'Metrophobic', sans-serif;
     background-color: #ffffff;
+    color: black;
     background: url('https://image.freepik.com/free-vector/abstract-comic-book-background_1055-2509.jpg?2') no-repeat center;
     background-size: cover;
-    text-shadow:
-		-1px -1px 0 rgb(187, 187, 187),
-		1px -1px 0 rgb(187, 187, 187),
-		-1px 1px 0 rgb(187, 187, 187),
-		1px 1px 0 rgb(187, 187, 187);
+    
 }
 
 .start-quiz-button {

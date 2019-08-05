@@ -5,10 +5,14 @@
 body {
     height: 100vh;
     font-family: 'Metrophobic', sans-serif;
-    color: black;
+    background-color: #ffffff;
     background: url('https://image.freepik.com/free-vector/abstract-comic-book-background_1055-2509.jpg?2') no-repeat center;
     background-size: cover;
-    
+    text-shadow:
+		-1px -1px 0 gainsboro,
+		1px -1px 0 gainsboro,
+		-1px 1px 0 gainsboro,
+		1px 1px 0 gainsboro;
 }
 
 .start-quiz-button {
@@ -16,7 +20,7 @@ body {
     padding: 20px;
     width: 100%;
     font-size: 100%;
-    color: rgb(0, 0, 0);
+    color: black;
     border: 1px solid rgb(213, 213, 213);
     border-radius: 50px; 
     background-color: deepskyblue;
@@ -25,7 +29,6 @@ body {
 header {
     text-align: center;
     margin: 0px;    
-    color: black;
 }
 
 header ul {
@@ -47,7 +50,6 @@ header li {
     display: none;
     text-align: center;
     flex-direction: column;
-    color: black;
 }
 
 .question-answer-form img {
@@ -68,7 +70,6 @@ fieldset {
     flex-direction: column;
     
     border: 0px;
-    color: black;
 }
 
 .answerOption {
@@ -77,8 +78,8 @@ fieldset {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1p solid rgb(157, 184, 233);
-    background-color: rgb(157, 184, 233)
+    border: 1p solid powderblue;
+    background-color: powderblue
 }
 
 .answerOption span {
@@ -95,20 +96,18 @@ fieldset {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid gainsboro;
     border-radius: 500px;
     background-color: deepskyblue;
-    color: black;
 }
 
 .nextButton {
     text-transform: uppercase;
     width: 100%;
     padding: 15px;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid gainsboro;
     border-radius: 500px;
     background-color: deepskyblue;
-    color: black;
 }
 
 .restartButton {
@@ -116,8 +115,7 @@ fieldset {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid gainsboro;
     border-radius: 500px;
     background-color: deepskyblue;
-    color: black;
 }

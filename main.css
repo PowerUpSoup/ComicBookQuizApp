@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+body {
+    height: 100vh;
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #ffffff;
+    background: url('https://image.freepik.com/free-vector/abstract-comic-book-background_1055-2509.jpg?2') no-repeat center;
+    background-size: cover;
+    text-shadow:
+		-1px -1px 0 gainsboro,
+		1px -1px 0 gainsboro,
+		-1px 1px 0 gainsboro,
+		1px 1px 0 gainsboro;
+}
+
+.start-quiz-button {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    font-size: 100%;
+    color: black;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 50px; 
+    background-color: deepskyblue;
+}
+
+header {
+    text-align: center;
+    margin: 0px;    
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+
+.quiz-start {
+    text-align: center;
+}
+
+.question-answer-form {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+}
+
+.question-answer-form img {
+    max-width: 80%;
+    max-height: 400px;
+}
+
+.question-answer-form fieldset {
+    text-align: left;
+}
+
+form {
+    border: none;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    
+    border: 0px;
+}
+
+.answerOption {
+    height: 45px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1p solid powderblue;
+    background-color: powderblue
+}
+
+.answerOption span {
+    word-wrap: none;
+}
+
+.answerOption:hover {
+    background-color: rgb(51, 95, 189);
+    border: 2px dashed yellow;
+}
+
+.question-answer-form .submitButton {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 500px;
+    background-color: deepskyblue;
+}
+
+.nextButton {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 500px;
+    background-color: deepskyblue;
+}
+
+.restartButton {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 500px;
+    background-color: deepskyblue;
+}

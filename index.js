@@ -156,7 +156,7 @@ function generateQuestion() {
     } else {
         renderResults();
         restartQuiz();
-        $('.questionNumber').text(10)
+        $('.question-number').text(10)
     }
 }
 
@@ -215,7 +215,6 @@ function renderNextQuestion() {
 }
 
 function renderResults() {
-    $('.question-number').text('10');
     if (score >= 8) {
         $('.question-answer-form').html(`<div class="results correctFeedback"><h3>Excelcior!</h3><img src="Assets/ExcelsiorResult.jpg" alt="illustration of Stan Lee with the word excelsior over his head"/><p>You got ${score} / 10</p><p>You're Marvelous!</p><button class="restartButton">Restart Quiz</button></div>`);
     } else if (score < 8 && score >= 5) {
@@ -229,6 +228,7 @@ function restartQuiz()  {
     $('main').on('click', '.restartButton', function (event) {
         console.log('The user wants to start again! ')
         questionNumber = 0;
+        score = 0;
         $('.question-number').text(questionNumber + 1);
         generateQuestion();
         renderQuestion();

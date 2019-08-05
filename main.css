@@ -9,10 +9,10 @@ body {
     background: url('https://image.freepik.com/free-vector/abstract-comic-book-background_1055-2509.jpg?2') no-repeat center;
     background-size: cover;
     text-shadow:
-		-1px -1px 0 gainsboro,
-		1px -1px 0 gainsboro,
-		-1px 1px 0 gainsboro,
-		1px 1px 0 gainsboro;
+		-1px -1px 0 rgb(187, 187, 187),
+		1px -1px 0 rgb(187, 187, 187),
+		-1px 1px 0 rgb(187, 187, 187),
+		1px 1px 0 rgb(187, 187, 187);
 }
 
 .start-quiz-button {
@@ -20,7 +20,7 @@ body {
     padding: 20px;
     width: 100%;
     font-size: 100%;
-    color: black;
+    color: rgb(0, 0, 0);
     border: 1px solid rgb(213, 213, 213);
     border-radius: 50px; 
     background-color: deepskyblue;
@@ -78,8 +78,8 @@ fieldset {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1p solid powderblue;
-    background-color: powderblue
+    border: 1p solid rgb(157, 184, 233);
+    background-color: rgb(157, 184, 233)
 }
 
 .answerOption span {
@@ -96,7 +96,7 @@ fieldset {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(187, 187, 187);
     border-radius: 500px;
     background-color: deepskyblue;
 }
@@ -105,7 +105,7 @@ fieldset {
     text-transform: uppercase;
     width: 100%;
     padding: 15px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(187, 187, 187);
     border-radius: 500px;
     background-color: deepskyblue;
 }
@@ -115,7 +115,7 @@ fieldset {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(187, 187, 187);
     border-radius: 500px;
     background-color: deepskyblue;
 }
